@@ -22,7 +22,7 @@ export class DivisionComponent implements OnInit {
       .subscribe(
         response => {
           console.log(response);
-          this.router.navigate(['/divisi'])
+          this.router.navigate(['divisi'])
           .then(() => {
             window.location.reload();
           });
